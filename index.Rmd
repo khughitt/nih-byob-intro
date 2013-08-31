@@ -74,7 +74,7 @@ BYOB will include a very wide range of topics:
 
 ---
 
-## Example Topics
+## Example Tutorials
 
 > - Visualization in R using ggplot2
 > - Batch correction for RNA-Seq (ComBat, etc)
@@ -88,7 +88,7 @@ BYOB will include a very wide range of topics:
 
 ---
 
-## Example Topics (cont.)
+## Example Tutorials (cont.)
 
 > - Debugging Python code using IPyhon + PDB
 > - Making presentations using Slidify
@@ -106,7 +106,7 @@ BYOB will include a very wide range of topics:
 All of the materials from presentations given at BYOB will be made available
 on Github:
 
-<iframe src='https://github.com/umd-byob/byob/tree/master/presentations' height='600px'></iframe>
+<iframe src='http://github.com/umd-byob/byob/tree/master/presentations' height='600px'></iframe>
 
 ---
 
@@ -116,7 +116,7 @@ A UMD-BYOB Google Group has been created to make announcements about upcoming
 presentations.
 
 
-<iframe src='https://groups.google.com/forum/#!forum/umd-byob' height='600px'></iframe>
+<iframe src='http://groups.google.com/forum/#!forum/umd-byob' height='600px'></iframe>
 
 ---
 
@@ -124,7 +124,7 @@ presentations.
 
 A full schedule will also be made available at http://www.umiacs.umd.edu/~keith/byob/.
 
-<iframe src='http://www.umiacs.umd.edu/~keith/byob/' height='600px'></iframe>
+<iframe src='http://www.umiacs.umd.edu/~keith/byob/' height='650px'></iframe>
 
 --- .middle
 

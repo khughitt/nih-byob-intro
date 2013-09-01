@@ -106,7 +106,7 @@ BYOB will include a very wide range of topics:
 All of the materials from presentations given at BYOB will be made available
 on Github:
 
-<iframe src='http://github.com/umd-byob/byob/tree/master/presentations' height='600px'></iframe>
+![Github](assets/img/github.png)
 
 ---
 
@@ -131,6 +131,4 @@ A full schedule will also be made available at http://www.umiacs.umd.edu/~keith/
 ## Done!
 
 Questions / Ideas?
-
-
 

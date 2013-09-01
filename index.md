@@ -124,11 +124,9 @@ presentations.
 
 A full schedule will also be made available at http://www.umiacs.umd.edu/~keith/byob/.
 
-<iframe src='http://www.umiacs.umd.edu/~keith/byob/' height='650px'></iframe>
+<iframe src='http://www.umiacs.umd.edu/~keith/byob/' height='600px'></iframe>
 
---- .middle
+--- .segue .dark
 
-## Done!
-
-Questions / Ideas?
+## Questions / Ideas?
 

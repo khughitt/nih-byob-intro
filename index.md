@@ -115,16 +115,15 @@ on Github:
 A UMD-BYOB Google Group has been created to make announcements about upcoming
 presentations.
 
-
-<iframe src='http://groups.google.com/forum/#!forum/umd-byob' height='600px'></iframe>
+![Google Groups](assets/img/google-groups.png)
 
 ---
 
 ## Website
 
-A full schedule will also be made available at http://www.umiacs.umd.edu/~keith/byob/.
+A full schedule will also be made available at http://umd-byob.github.io/.
 
-<iframe src='http://www.umiacs.umd.edu/~keith/byob/' height='600px'></iframe>
+<iframe src='http://umd-byob.github.io/' height='600px'></iframe>
 
 --- .segue .dark
 

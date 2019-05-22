@@ -1,5 +1,5 @@
 ---
-title       : Introduction to Bring Your Own Bioinformatics
+title       : Introduction to NIH Bring Your Own Bioinformatics (NIH BYOB)
 subtitle    :
 author      : Keith Hughitt
 job         :
@@ -14,14 +14,16 @@ mode        : selfcontained # {standalone, draft}
 ## Why BYOB?
 
 > 1. Many people working along the spectrum from <span class='blue2'>Biology
-     </span> to <span class='blue2'>Computer Science</span>.
-> 2. There are some good meetings for people working in these areas (e.g. CBMG
-     and CBCB RIPs).
-> 3. However, some people's work may not fit nicely into either of these.
-> 4. RIPs/JCs are typically focused on research and not on the tools used along
-     the way.
+     </span> to <span class='blue2'>Computer Science</span> at NIH.
+> 2. There are already some great meeting series in this area.
+> 3. However, research talks and journal clubs are typically focused on research, and
+     not on the tools and methods used along the way.
+> 4. It's very likely that many people are solving the same problems, indepdendently
+>    throughout NIH.
 > 5. Also, few socially-oriented meetings directed at people across this spectrum
      currently exist.
+
+<span class="footnote">Slides adapted from an earlier version of this presentation [here](http://khughitt.github.io/slidify-byob-intro/#1)...</span>
 
 ---
 
@@ -30,8 +32,8 @@ mode        : selfcontained # {standalone, draft}
 > 1. Bring people with shared interests <span class='blue2'>across the spectrum
      </span> together to share ideas, help each other out and also to learn what
      each other is doing.
-> 2. Short, practical tutorials and presentations for the 1st half of meeting.
-> 3. Discussion and socializing in 2nd half of meeting.
+> 2. Short, practical tutorials and presentations
+> 3. Discussions relating to the presentation (and anything else on people's minds..)
 > 4. Have fun.
 
 ---
@@ -39,7 +41,7 @@ mode        : selfcontained # {standalone, draft}
 ## Who?
 
 > - Anyone who is either working on or interested in topics that fall along this
-spectrum: students, faculty, post-docs, technicians, etc
+spectrum: researchers, students, post-docs, technicians, etc
 > - Both those with experience and those who are interested.
 
 ---
@@ -68,9 +70,11 @@ BYOB will include a very wide range of topics:
 > - Data analysis
 > - Programming
 > - Statistics
+> - Machine Learning
+> - Software pipelines
 > - Visualization
 > - Software Engineering
-> - Open Science and Reproducible Research
+> - Reproducible Research
 
 ---
 
@@ -90,7 +94,7 @@ BYOB will include a very wide range of topics:
 
 ## Example Tutorials (cont.)
 
-> - Debugging Python code using IPyhon + PDB
+> - Debugging Python code using IPython + PDB
 > - Making presentations using Slidify
 > - Collaboration using Git and Github
 > - Running Linux as a virtual machine
@@ -104,26 +108,45 @@ BYOB will include a very wide range of topics:
 ## Github
 
 All of the materials from presentations given at BYOB will be made available
-on Github:
+on [Github](https://github.com/nih-byob/presentations).
 
 ![Github](assets/img/github.png)
 
 ---
 
-## Mailing list
+## Slack
 
-A UMD-BYOB Google Group has been created to make announcements about upcoming
-presentations.
+A NIH-BYOB Slack channel has been created to allow the discussions to continue after the
+meeting ends.
 
-![Google Groups](assets/img/google-groups.png)
+- [nih-byob.slack.com](https://join.slack.com/t/nih-byob/shared_invite/enQtNjMwNzYyMTIxMzc5LWZhNmE1NjU2OGM4Zjc5YTY2OTRhOGU1YWMxNzQwNzcxZWI5NzM4NWE5YmZiZWIyNGI2MmRhNzJlYTE4MDY4OTM)
+
+![Slack](assets/img/google-groups.png)
 
 ---
 
-## Website
+## Related efforts: 
 
-A full schedule will also be made available at http://umd-byob.github.io/.
+**Seminars**
 
-<iframe src='http://umd-byob.github.io/' height='600px'></iframe>
+- [Biowulf Classes and Seminar Series](https://hpc.nih.gov/training/)
+- [NCI CBIIT Data Science Seminar Series](https://datascience.cancer.gov/news-events/events?event_category_id=66)
+- [NLM Informatics and Data Science Lecture Series](https://news.nnlm.gov/psr-newsbits/category/informatics/)
+
+**Courses & Training**
+
+- [NCI CBIIT Bioinformatics & Computational Genomics Training](https://cbiitsolutions.cancer.gov/news-events/training)
+- [NCI CCR Bioinformatics Training & Education Program (BTEP)](https://btep.ccr.cancer.gov/)
+
+**Community-led Meetings**
+
+- [NIH Programmers Corner](https://abcsfrederick.info/Events)
+- [NIH Bioinformatics User Forum](https://abcsfrederick.info/Events)
+
+**Mailing Lists**
+
+- [NIH Bioinformatics Special Interest Group (BSIG)](https://oir.nih.gov/sigs/bioinformatics-scientific-interest-group)
+- [NIH Data Science Special Interest Group](https://oir.nih.gov/sigs/data-science-biomedicine-interest-group)
 
 --- .segue .dark
 

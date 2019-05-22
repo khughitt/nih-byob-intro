@@ -1,5 +1,5 @@
-Introduction to Bring Your Own Bioinformatics
-=============================================
+Introduction to NIH Bring Your Own Bioinformatics
+==================================================
 
-View the presentation at [http://khughitt.github.io/slidify-byob-intro/](http://khughitt.github.io/slidify-byob-intro/).
+View the presentation at [http://khughitt.github.io/nih-byob-intro/](http://khughitt.github.io/nih-byob-intro/).
 

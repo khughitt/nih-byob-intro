@@ -32,8 +32,7 @@ slides > slide:not(.nobackground):after {
 > 5. Also, few socially-oriented meetings directed at people across this spectrum
      currently exist.
 
-<span class="footnote">*Slides adapted from an earlier version of this presentation [here](http://khughitt.github.io/slidify-byob-intro/#1)</span>
-style="position: absolute; bottom: 40px; font-size:10px; color='#666666'"
+<span style="position: absolute; bottom: 40px; font-size:10px; color='#666666'">*Slides adapted from an earlier version of this presentation [here](http://khughitt.github.io/slidify-byob-intro/#1)</span>
 
 ---
 

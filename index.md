@@ -90,11 +90,11 @@ BYOB will include a very wide range of topics:
 ## Upcoming talks
 
 
-- **Thurs May 23**  [B1C208] _Introduction / "Bioinformatics advice I wish I learned 10 years ago"_ (Keith Hughitt)
-- **Thurs June 20** [B1C211] _Using Singularity Containers for Reproducible Research_ (Henoke Shiferaw)
-- **Thurs July 18** [B1C208] _Long reads: from mapping to genome assembly_ (Arang Rhie)
-- **Thurs Aug  22** [B1C211] _Organizing Data Science Projects_ (Justin Fear)
-- **Thurs Sept 19** [B1C211] _Making better use of Biowulf storage_ (Tim Miller)
+- <span style='font-weight: bold'>Thurs May 23</span>  [B1C208] <span style='font-style: italic'>Introduction / "Bioinformatics advice I wish I learned 10 years ago"</span> (Keith Hughitt)
+- <span style='font-weight: bold'>Thurs June 20</span> [B1C211] <span style='font-style: italic'>Using Singularity Containers for Reproducible Research</span> (Henoke Shiferaw)
+- <span style='font-weight: bold'>Thurs July 18</span> [B1C208] <span style='font-style: italic'>Long reads: from mapping to genome assembly</span> (Arang Rhie)
+- <span style='font-weight: bold'>Thurs Aug  22</span> [B1C211] <span style='font-style: italic'>Organizing Data Science Projects</span> (Justin Fear)
+- <span style='font-weight: bold'>Thurs Sept 19</span> [B1C211] <span style='font-style: italic'>Making better use of Biowulf storage</span> (Tim Miller)
 
 ---
 
@@ -103,7 +103,7 @@ BYOB will include a very wide range of topics:
 All of the materials from presentations given at BYOB will be made available
 on:
 
-- ![https://github.com/nih-byob/presentations](https://github.com/nih-byob/presentations)
+- [https://github.com/nih-byob/presentations](https://github.com/nih-byob/presentations)
 
 ![Github](assets/img/github.png)
 

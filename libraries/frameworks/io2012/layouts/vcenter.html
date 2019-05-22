@@ -1,16 +1,16 @@
-<slide class="{{ class }}" id="{{ id }}">
+<slide class="{{ slide.class }}" id="{{ slide.id }}">
 <hgroup>
-  {{{ header}}}
+  {{{ slide.header}}}
 </hgroup>
 <article class = 'flexbox vcenter'>
-{{{ content }}}
+{{{ slide.content }}}
 </article>
 <!-- Presenter Notes -->
-{{# pnotes}}
+{{# slide.pnotes}}
 <aside class="note">
   <section>
-    {{{ . }}}
+    {{{ html }}}
   </section>
 </aside>
-{{/ pnotes}}
+{{/ slide.pnotes}}
 </slide>

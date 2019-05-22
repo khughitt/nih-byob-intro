@@ -1,76 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Introduction to Bring Your Own Bioinformatics</title>
+  <title>Introduction to NIH Bring Your Own Bioinformatics (NIH BYOB)</title>
   <meta charset="utf-8">
-  <meta name="description" content="Introduction to Bring Your Own Bioinformatics">
+  <meta name="description" content="Introduction to NIH Bring Your Own Bioinformatics (NIH BYOB)">
   <meta name="author" content="Keith Hughitt">
   <meta name="generator" content="slidify" />
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
   <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
-  <link rel="stylesheet" href="libraries/frameworks/io2012/phone.css" 
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
     media="only screen and (max-device-width: 480px)" >
   <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
   <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
-  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
   <script data-main="libraries/frameworks/io2012/js/slides" 
     src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
   </script>
   
-    <link rel="stylesheet" href = "assets/css/ribbons.css">
+  
 
 </head>
 <body style="opacity: 0">
   <slides class="layout-widescreen">
     
     <!-- LOGO SLIDE -->
-    <!-- END LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Introduction to NIH Bring Your Own Bioinformatics (NIH BYOB)</h1>
+    <h2></h2>
+    <p>Keith Hughitt<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
     
 
-    <!-- TITLE SLIDE -->
-    <!-- Should I move this to a Local Layout File? -->
-    <slide class="title-slide segue nobackground">
-      <hgroup class="auto-fadein">
-        <h1>Introduction to Bring Your Own Bioinformatics</h1>
-        <h2></h2>
-        <p>Keith Hughitt<br/></p>
-      </hgroup>
-          </slide>
-
     <!-- SLIDES -->
-      <slide class="" id="slide-1" style="background:;">
+    <slide class="" id="slide-1" style="background:;">
   <hgroup>
     <h2>Why BYOB?</h2>
   </hgroup>
-  <article>
-    <ol class = "build">
+  <article data-timings="">
+    <ol class = "build incremental">
 <li>Many people working along the spectrum from <span class='blue2'>Biology
- </span> to <span class='blue2'>Computer Science</span>.</li>
-<li>There are some good meetings for people working in these areas (e.g. CBMG
- and CBCB RIPs).</li>
-<li>However, some people&#39;s work may not fit nicely into either of these.</li>
-<li>RIPs/JCs are typically focused on research and not on the tools used along
- the way.</li>
+ </span> to <span class='blue2'>Computer Science</span> at NIH.</li>
+<li>There are already some great meeting series in this area.</li>
+<li>However, research talks and journal clubs are typically focused on research, and
+ not on the tools and methods used along the way.</li>
+<li>It&#39;s very likely that many people are solving the same problems, indepdendently
+throughout NIH.</li>
 <li>Also, few socially-oriented meetings directed at people across this spectrum
  currently exist.</li>
 </ol>
+
+<p><span class="footnote">Slides adapted from an earlier version of this presentation <a href="http://khughitt.github.io/slidify-byob-intro/#1">here</a>...</span></p>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-      <slide class="" id="slide-2" style="background:;">
+<slide class="" id="slide-2" style="background:;">
   <hgroup>
     <h2>Goals</h2>
   </hgroup>
-  <article>
-    <ol class = "build">
+  <article data-timings="">
+    <ol class = "build incremental">
 <li>Bring people with shared interests <span class='blue2'>across the spectrum
  </span> together to share ideas, help each other out and also to learn what
  each other is doing.</li>
-<li>Short, practical tutorials and presentations for the 1st half of meeting.</li>
-<li>Discussion and socializing in 2nd half of meeting.</li>
+<li>Short, practical tutorials and presentations</li>
+<li>Discussions relating to the presentation (and anything else on people&#39;s minds..)</li>
 <li>Have fun.</li>
 </ol>
 
@@ -78,14 +81,14 @@
   <!-- Presenter Notes -->
 </slide>
 
-      <slide class="" id="slide-3" style="background:;">
+<slide class="" id="slide-3" style="background:;">
   <hgroup>
     <h2>Who?</h2>
   </hgroup>
-  <article>
-    <ul class = "build">
+  <article data-timings="">
+    <ul class = "build incremental">
 <li>Anyone who is either working on or interested in topics that fall along this
-spectrum: students, faculty, post-docs, technicians, etc</li>
+spectrum: researchers, students, post-docs, technicians, etc</li>
 <li>Both those with experience and those who are interested.</li>
 </ul>
 
@@ -93,11 +96,11 @@ spectrum: students, faculty, post-docs, technicians, etc</li>
   <!-- Presenter Notes -->
 </slide>
 
-      <slide class="" id="slide-4" style="background:;">
+<slide class="" id="slide-4" style="background:;">
   <hgroup>
     <h2>Presentations</h2>
   </hgroup>
-  <article>
+  <article data-timings="">
     <p>Presentations will typically be short (15-45 minutes) and may fall into a
 couple different categories:</p>
 
@@ -115,34 +118,36 @@ okay too.</p>
   <!-- Presenter Notes -->
 </slide>
 
-      <slide class="" id="slide-5" style="background:;">
+<slide class="" id="slide-5" style="background:;">
   <hgroup>
     <h2>Topics Covered</h2>
   </hgroup>
-  <article>
+  <article data-timings="">
     <p>BYOB will include a very wide range of topics:</p>
 
-<ul class = "build">
+<ul class = "build incremental">
 <li>Bioinformatics</li>
 <li>Computational Biology</li>
 <li>Data analysis</li>
 <li>Programming</li>
 <li>Statistics</li>
+<li>Machine Learning</li>
+<li>Software pipelines</li>
 <li>Visualization</li>
 <li>Software Engineering</li>
-<li>Open Science and Reproducible Research</li>
+<li>Reproducible Research</li>
 </ul>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-      <slide class="" id="slide-6" style="background:;">
+<slide class="" id="slide-6" style="background:;">
   <hgroup>
     <h2>Example Tutorials</h2>
   </hgroup>
-  <article>
-    <ul class = "build">
+  <article data-timings="">
+    <ul class = "build incremental">
 <li>Visualization in R using ggplot2</li>
 <li>Batch correction for RNA-Seq (ComBat, etc)</li>
 <li>Network visualization with Cytoscape</li>
@@ -158,13 +163,13 @@ okay too.</p>
   <!-- Presenter Notes -->
 </slide>
 
-      <slide class="" id="slide-7" style="background:;">
+<slide class="" id="slide-7" style="background:;">
   <hgroup>
     <h2>Example Tutorials (cont.)</h2>
   </hgroup>
-  <article>
-    <ul class = "build">
-<li>Debugging Python code using IPyhon + PDB</li>
+  <article data-timings="">
+    <ul class = "build incremental">
+<li>Debugging Python code using IPython + PDB</li>
 <li>Making presentations using Slidify</li>
 <li>Collaboration using Git and Github</li>
 <li>Running Linux as a virtual machine</li>
@@ -178,13 +183,13 @@ okay too.</p>
   <!-- Presenter Notes -->
 </slide>
 
-      <slide class="" id="slide-8" style="background:;">
+<slide class="" id="slide-8" style="background:;">
   <hgroup>
     <h2>Github</h2>
   </hgroup>
-  <article>
+  <article data-timings="">
     <p>All of the materials from presentations given at BYOB will be made available
-on Github:</p>
+on <a href="https://github.com/nih-byob/presentations">Github</a>.</p>
 
 <p><img src="assets/img/github.png" alt="Github"></p>
 
@@ -192,38 +197,67 @@ on Github:</p>
   <!-- Presenter Notes -->
 </slide>
 
-      <slide class="" id="slide-9" style="background:;">
+<slide class="" id="slide-9" style="background:;">
   <hgroup>
-    <h2>Mailing list</h2>
+    <h2>Slack</h2>
   </hgroup>
-  <article>
-    <p>A UMD-BYOB Google Group has been created to make announcements about upcoming
-presentations.</p>
+  <article data-timings="">
+    <p>A NIH-BYOB Slack channel has been created to allow the discussions to continue after the
+meeting ends.</p>
 
-<p><img src="assets/img/google-groups.png" alt="Google Groups"></p>
+<ul>
+<li><a href="https://join.slack.com/t/nih-byob/shared_invite/enQtNjMwNzYyMTIxMzc5LWZhNmE1NjU2OGM4Zjc5YTY2OTRhOGU1YWMxNzQwNzcxZWI5NzM4NWE5YmZiZWIyNGI2MmRhNzJlYTE4MDY4OTM">nih-byob.slack.com</a></li>
+</ul>
+
+<p><img src="assets/img/google-groups.png" alt="Slack"></p>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-      <slide class="" id="slide-10" style="background:;">
+<slide class="" id="slide-10" style="background:;">
   <hgroup>
-    <h2>Website</h2>
+    <h2>Related efforts:</h2>
   </hgroup>
-  <article>
-    <p>A full schedule will also be made available at <a href="http://umd-byob.github.io/">http://umd-byob.github.io/</a>.</p>
+  <article data-timings="">
+    <p><strong>Seminars</strong></p>
 
-<iframe src='http://umd-byob.github.io/' height='600px'></iframe>
+<ul>
+<li><a href="https://hpc.nih.gov/training/">Biowulf Classes and Seminar Series</a></li>
+<li><a href="https://datascience.cancer.gov/news-events/events?event_category_id=66">NCI CBIIT Data Science Seminar Series</a></li>
+<li><a href="https://news.nnlm.gov/psr-newsbits/category/informatics/">NLM Informatics and Data Science Lecture Series</a></li>
+</ul>
+
+<p><strong>Courses &amp; Training</strong></p>
+
+<ul>
+<li><a href="https://cbiitsolutions.cancer.gov/news-events/training">NCI CBIIT Bioinformatics &amp; Computational Genomics Training</a></li>
+<li><a href="https://btep.ccr.cancer.gov/">NCI CCR Bioinformatics Training &amp; Education Program (BTEP)</a></li>
+</ul>
+
+<p><strong>Community-led Meetings</strong></p>
+
+<ul>
+<li><a href="https://abcsfrederick.info/Events">NIH Programmers Corner</a></li>
+<li><a href="https://abcsfrederick.info/Events">NIH Bioinformatics User Forum</a></li>
+</ul>
+
+<p><strong>Mailing Lists</strong></p>
+
+<ul>
+<li><a href="https://oir.nih.gov/sigs/bioinformatics-scientific-interest-group">NIH Bioinformatics Special Interest Group (BSIG)</a></li>
+<li><a href="https://oir.nih.gov/sigs/data-science-biomedicine-interest-group">NIH Data Science Special Interest Group</a></li>
+</ul>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-      <slide class="segue dark" id="slide-11" style="background:;">
+<slide class="segue dark" id="slide-11" style="background:;">
   <hgroup>
     <h2>Questions / Ideas?</h2>
   </hgroup>
-  <article>
+  <article data-timings="">
     
   </article>
   <!-- Presenter Notes -->
@@ -231,20 +265,87 @@ presentations.</p>
 
     <slide class="backdrop"></slide>
   </slides>
-
-  <!--[if IE]>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Why BYOB?'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Goals'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Who?'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Presentations'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Topics Covered'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Example Tutorials'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='Example Tutorials (cont.)'>
+         7
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='Github'>
+         8
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='Slack'>
+         9
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='Related efforts:'>
+         10
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=11 title='Questions / Ideas?'>
+         11
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
     <script 
       src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
     </script>
     <script>CFInstall.check({mode: 'overlay'});</script>
   <![endif]-->
 </body>
-<!-- Grab CDN jQuery, fall back to local if offline -->
-<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
-<script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery-1.7.min.js"><\/script>')</script>
-<!-- Load Javascripts for Widgets -->
-<!-- LOAD HIGHLIGHTER JS FILES -->
-<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-<!-- DONE LOADING HIGHLIGHTER JS FILES -->
-</html>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

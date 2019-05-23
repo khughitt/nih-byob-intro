@@ -12,24 +12,17 @@ knit        : slidify::knit2slides
 lib_cdn     : "https://cdn.rawgit.com/ramnathv/slidifyLibraries/master/inst/libraries"
 ---
 
-<style>
-<!-- hide slide numbers -->
-slides > slide:not(.nobackground):after {
-  content: ''
-}
-</style>
-
 ## Why BYOB?
 
-> 1. Many people working along the spectrum from <span class='blue2'>Biology
-     </span> to <span class='blue2'>Computer Science</span> at NIH.
-> 2. There are already some great meeting series covering topics along these lines at
-     NIH...
-> 3. However, most of these (research talks, journal clubs, etc.) tend to be focused on research,
+> 1. There are many people working somewhere along the spectrum between 
+     <span class='blue2'>Biology</span> to <span class='blue2'>Computer Science / 
+     Informatics</span> at NIH.
+> 2. There are a number of great meeting series at NIH that target this audience..
+     however, with a few exceptions, most of these tend to be focused on research,
      and not on the tools and methods used along the way.
-> 4. It's likely that many people are solving the same problems, indepdendently
+> 3. It's likely that many people are solving the same problems, indepdendently
      throughout NIH.
-> 5. Also, few socially-oriented meetings directed at people across this spectrum
+> 4. Also, few socially-oriented meetings directed at people across this spectrum
      currently exist.
 
 <span style="position: absolute; bottom: 40px; font-size:10px; color='#666666'">*Slides adapted from an earlier version of this presentation [here](http://khughitt.github.io/slidify-byob-intro/#1)</span>
@@ -38,9 +31,9 @@ slides > slide:not(.nobackground):after {
 
 ## Goals
 
-> 1. Bring people with shared interests <span class='blue2'>across the spectrum
-     </span> together to share ideas, help each other out and also to learn what
-     each other is doing.
+> 1. Bring researchers, students, and developers <span class='blue2'>across the spectrum
+     </span> together to share ideas, help each other out and learn about what others
+     are researching at NIH.
 > 2. Short, practical tutorials and presentations
 > 3. Discussions relating to the presentation (and anything else on people's minds..)
 > 4. Have fun.
